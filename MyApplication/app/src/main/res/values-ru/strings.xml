@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">BlessApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="language">Язык</string>
+    <string name="time_of_bless">Време чихания</string>
+    <string name="delay">Задержка</string>
+    <string name="theme">Темы</string>
+    <string name="volume">Звук</string>
+    <string name="home">Дом</string>
+    <string name="upradge">Улучшения</string>
+    <string name="settings">Настройки</string>
+    <string name="audio">Аудио</string>
+    <string name="recover_bless">Восстановление чихов</string>
+    <string name="max_number_of_bless">Максимально число чихов</string>
+    <string name="on">Вкл</string>
+    <string name="off">Выкл</string>
+    <string name="english">Русский</string>
+</resources>

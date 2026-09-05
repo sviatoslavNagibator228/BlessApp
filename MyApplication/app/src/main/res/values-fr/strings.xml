@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">BlessApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="language">Langue</string>
+    <string name="time_of_bless">Temps d\'éternuement</string>
+    <string name="delay">Retard</string>
+    <string name="theme">Thèmes</string>
+    <string name="volume">Audio</string>
+    <string name="home">Maison</string>
+    <string name="upradge">Améliorations</string>
+    <string name="settings">Réglages</string>
+    <string name="audio">Audio</string>
+    <string name="recover_bless">Récupération des éternuements</string>
+    <string name="max_number_of_bless">Nombre maximal d\'éternuements</string>
+    <string name="on">On</string>
+    <string name="off">Éteint</string>
+    <string name="english">Français</string>
+</resources>

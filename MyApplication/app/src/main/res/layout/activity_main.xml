@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/phone"
+    android:scaleType="centerInside">
+
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/shapes4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageButton
+        android:id="@+id/ArrowButton"
+        android:contentDescription="Quit"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:background="#00000000"
+        android:scaleType="centerInside"
+        android:src="@mipmap/mop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <ImageButton
+        android:id="@+id/ShareButton"
+        android:contentDescription="Share"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:background="#00000000"
+        android:scaleType="centerInside"
+        android:src="@mipmap/share"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="BlessApp"
+        android:textColor="#73b3d9"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <View
+        android:id="@+id/view5"
+        android:layout_width="310dp"
+        android:layout_height="310dp"
+        android:background="@drawable/shapes2"
+        app:layout_constraintBottom_toTopOf="@+id/view6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view4" />
+
+    <Button
+        android:id="@+id/onOff"
+        android:layout_width="258dp"
+        android:layout_height="270dp"
+        android:background="@drawable/shapes8"
+        android:backgroundTint="#eaf1f5"
+        android:text="@string/off"
+        android:textColor="#73b3d9"
+        android:textSize="110sp"
+        app:layout_constraintBottom_toBottomOf="@+id/view5"
+        app:layout_constraintEnd_toEndOf="@+id/view5"
+        app:layout_constraintStart_toStartOf="@+id/view5"
+        app:layout_constraintTop_toTopOf="@+id/view5" />
+
+    <View
+        android:id="@+id/view6"
+        android:layout_width="370dp"
+        android:layout_height="24dp"
+        android:layout_marginBottom="194dp"
+        android:background="@drawable/shapes3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="320dp"
+        android:layout_height="30dp"
+        android:min="0"
+        android:scaleY="2"
+        app:layout_constraintBottom_toBottomOf="@+id/view6"
+        app:layout_constraintEnd_toEndOf="@+id/view6"
+
+        app:layout_constraintTop_toTopOf="@+id/view6" />
+
+    <TextView
+        android:id="@+id/cucucu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10/10"
+        android:textSize="12sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="@+id/progressBar"
+        app:layout_constraintEnd_toStartOf="@+id/progressBar"
+        app:layout_constraintStart_toStartOf="@+id/view6"
+        app:layout_constraintTop_toTopOf="@+id/progressBar" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="280dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="47dp"
+        android:background="@drawable/shapes"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageButton"
+        android:layout_width="65dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="3dp"
+        android:background="#00000000"
+        android:scaleType="centerInside"
+        android:src="@mipmap/house"
+        app:layout_constraintBottom_toTopOf="@+id/textView7"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton2"
+        app:layout_constraintStart_toStartOf="@+id/view3"
+        app:layout_constraintTop_toTopOf="@+id/view3" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="65dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="64dp"
+        android:background="#00000000"
+        android:contentDescription="Upradge"
+        android:scaleType="centerInside"
+        android:src="@mipmap/upradge"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/view3"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="@+id/view3" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="65dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="64dp"
+        android:background="#00000000"
+        android:contentDescription="Settings"
+        android:scaleType="centerInside"
+        android:src="@mipmap/setting"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/view3"
+        app:layout_constraintStart_toEndOf="@+id/imageButton2"
+        app:layout_constraintTop_toTopOf="@+id/view3" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="55dp"
+        android:layout_height="23dp"
+        android:text="@string/home"
+        android:textColor="#eaf1f5"
+        android:textSize="19sp"
+        app:layout_constraintBottom_toBottomOf="@+id/view3"
+        app:layout_constraintEnd_toStartOf="@+id/textView5"
+        app:layout_constraintStart_toStartOf="@+id/view3" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="25dp"
+        android:text="@string/upradge"
+        android:textColor="#eaf1f5"
+        android:textSize="19sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/view3"
+        app:layout_constraintStart_toStartOf="@+id/view3" />
+
+    <TextView
+        android:layout_width="75dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="25dp"
+        android:text="@string/settings"
+        android:textColor="#eaf1f5"
+        android:textSize="19sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/view3"
+        app:layout_constraintStart_toEndOf="@+id/textView5"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton3" />
+    <View
+        android:id="@+id/krutoAnimation"
+        android:layout_marginLeft="11dp"
+        android:layout_width="80dp"
+        android:layout_height="77dp"
+        android:background="@drawable/shapes_final"
+        app:layout_constraintLeft_toLeftOf="@+id/view3"
+        app:layout_constraintTop_toTopOf="@+id/view3"
+        app:layout_constraintBottom_toBottomOf="@+id/view3" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+

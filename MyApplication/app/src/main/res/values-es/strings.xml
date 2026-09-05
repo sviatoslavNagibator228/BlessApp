@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">BlessApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="language">Idioma</string>
+    <string name="time_of_bless">Tiempo de estornudo</string>
+    <string name="delay">Retraso</string>
+    <string name="theme">Tema</string>
+    <string name="volume">Volumen</string>
+    <string name="home">Inicio</string>
+    <string name="upradge">Upradge</string>
+    <string name="settings">Ajustes</string>
+    <string name="audio">Audio</string>
+    <string name="recover_bless">Recuperar el estornudo</string>
+    <string name="max_number_of_bless">Número máximo de estornudos</string>
+    <string name="on">En</string>
+    <string name="off">Apagado</string>
+    <string name="english">Español</string>
+</resources>

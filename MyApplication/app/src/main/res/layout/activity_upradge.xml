@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/phone"
+    android:scaleType="centerInside">
+
+    <View
+        android:id="@+id/view10"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/shapes4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="BlessApp"
+        android:textColor="#73b3d9"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <LinearLayout
+        android:layout_width="30dp"
+        android:layout_height="149dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout2"
+        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="1dp"
+            android:text="1."
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="9dp"
+            android:text="2."
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="9dp"
+            android:text="3."
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="10dp"
+            android:text="4."
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="10dp"
+            android:text="5."
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view11"
+        android:layout_width="370dp"
+        android:layout_height="180dp"
+        android:background="@drawable/shapes5"
+        app:layout_constraintBottom_toTopOf="@+id/view7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view10" />
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="@+id/view11"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:layout_constraintVertical_bias="0.533">
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/coconut1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:layout="@layout/fragment_sound" />
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/coconut2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:layout="@layout/fragment_sound" />
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/coconut3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:layout="@layout/fragment_sound" />
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/coconut4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:layout="@layout/fragment_sound" />
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/coconut5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:layout="@layout/fragment_sound" />
+
+    </LinearLayout>
+
+    <TextView
+
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/audio"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="@+id/view11"
+        app:layout_constraintStart_toStartOf="@+id/view11"
+        app:layout_constraintTop_toTopOf="@+id/view11" />
+
+    <View
+        android:id="@+id/view7"
+        android:layout_width="165dp"
+        android:layout_height="230dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="374dp"
+        android:layout_marginBottom="87dp"
+        android:background="@drawable/shapes5"
+        app:layout_constraintBottom_toTopOf="@+id/view3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="150dp"
+        android:layout_height="43dp"
+        android:gravity="center_horizontal"
+        android:text="@string/recover_bless"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/recoverBless"
+        app:layout_constraintEnd_toEndOf="@+id/view7"
+        app:layout_constraintStart_toStartOf="@+id/view7"
+        app:layout_constraintTop_toTopOf="@+id/view7"
+        android:layout_marginTop="20dp"/>
+
+
+    <TextView
+        android:id="@+id/cur"
+        android:layout_width="87dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginEnd="20dp"
+        android:text="current:5"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="@+id/view7"
+        app:layout_constraintEnd_toEndOf="@+id/recoverBless"
+        app:layout_constraintStart_toStartOf="@+id/recoverBless" />
+
+    <ImageButton
+        android:id="@+id/recoverBless"
+        android:layout_width="167dp"
+        android:layout_height="172dp"
+        android:background="#00000000"
+        android:contentDescription="Watch add"
+        android:scaleType="centerInside"
+        android:src="@mipmap/video"
+        app:layout_constraintBottom_toBottomOf="@+id/view7"
+        app:layout_constraintEnd_toEndOf="@+id/view7"
+        app:layout_constraintStart_toStartOf="@+id/view7"
+        app:layout_constraintTop_toTopOf="@+id/view7" />
+
+    <View
+        android:id="@+id/view8"
+        android:layout_width="165dp"
+        android:layout_height="230dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/shapes5"
+        app:layout_constraintBottom_toTopOf="@+id/view3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view11" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="158dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="12dp"
+        android:gravity="center_horizontal"
+        android:text="@string/max_number_of_bless"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/increaseMaxNumberOfBless"
+        app:layout_constraintEnd_toEndOf="@+id/increaseMaxNumberOfBless"
+        app:layout_constraintStart_toStartOf="@+id/increaseMaxNumberOfBless"
+        app:layout_constraintTop_toTopOf="@+id/view8" />
+
+    <TextView
+        android:id="@+id/txtMax"
+        android:layout_width="42dp"
+        android:layout_height="33dp"
+        android:text="1/3"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="@+id/view8"
+        app:layout_constraintEnd_toEndOf="@+id/increaseMaxNumberOfBless"
+        app:layout_constraintStart_toEndOf="@+id/increaseMaxNumberOfBless"
+        app:layout_constraintStart_toStartOf="@+id/view8"
+        app:layout_constraintTop_toBottomOf="@+id/increaseMaxNumberOfBless" />
+
+    <ImageButton
+        android:id="@+id/increaseMaxNumberOfBless"
+        android:layout_width="186dp"
+        android:layout_height="164dp"
+        android:background="#00000000"
+        android:contentDescription="Watch add"
+        android:scaleType="centerInside"
+        android:src="@mipmap/video"
+        app:layout_constraintBottom_toBottomOf="@+id/view8"
+        app:layout_constraintEnd_toEndOf="@+id/view8"
+        app:layout_constraintStart_toStartOf="@+id/view8"
+        app:layout_constraintTop_toTopOf="@+id/view8" />
+
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="280dp"
+        android:layout_height="81dp"
+        android:layout_marginBottom="47dp"
+        android:background="@drawable/shapes"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="65dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="64dp"
+        android:background="#00000000"
+        android:contentDescription="Home"
+        android:scaleType="centerInside"
+        android:src="@mipmap/house"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton2"
+        app:layout_constraintStart_toStartOf="@+id/view3"
+        app:layout_constraintTop_toTopOf="@+id/view3" />
+
+    <ImageView
+        android:id="@id/imageButton2"
+        android:layout_width="65dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="64dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="#00000000"
+        android:src="@mipmap/upradge"
+        android:scaleType="centerInside"/>
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="65dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="64dp"
+        android:background="#00000000"
+        android:contentDescription="Settings"
+        android:scaleType="centerInside"
+        android:src="@mipmap/setting"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/view3"
+        app:layout_constraintStart_toEndOf="@+id/imageButton2"
+        app:layout_constraintTop_toTopOf="@+id/view3" />
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="25dp"
+        android:text="@string/home"
+        android:textColor="#eaf1f5"
+        android:layout_marginLeft="13dp"
+        android:textSize="19sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView14"
+        app:layout_constraintStart_toStartOf="@+id/view3" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="25dp"
+        android:text="@string/upradge"
+        android:layout_marginLeft="7dp"
+        android:textColor="#eaf1f5"
+        android:textSize="19sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView15"
+        app:layout_constraintStart_toEndOf="@+id/imageButton" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="75dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="25dp"
+        android:text="@string/settings"
+        android:textColor="#eaf1f5"
+        android:textSize="19sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/view3"
+        app:layout_constraintStart_toEndOf="@+id/imageButton2" />
+
+    <View
+        android:id="@+id/krutoAnimation"
+        android:layout_width="80dp"
+        android:layout_height="77dp"
+        android:background="@drawable/shapes_final"
+        app:layout_constraintRight_toRightOf="@+id/view3"
+        app:layout_constraintLeft_toLeftOf="@+id/view3"
+        app:layout_constraintTop_toTopOf="@+id/view3"
+        app:layout_constraintBottom_toBottomOf="@+id/view3"
+        />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

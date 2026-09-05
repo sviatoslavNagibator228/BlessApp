@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">BlessApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="language">Language</string>
+    <string name="time_of_bless">Time of bless</string>
+    <string name="delay">Delay</string>
+    <string name="theme">Theme</string>
+    <string name="volume">Volume</string>
+    <string name="home">Home</string>
+    <string name="upradge">Upradge</string>
+    <string name="settings">Settings</string>
+    <string name="audio">Audio</string>
+    <string name="recover_bless">Recover bless</string>
+    <string name="max_number_of_bless">Max number of bless</string>
+    <string name="on">On</string>
+    <string name="off">Off</string>
+    <string name="english">English</string>
+</resources>
